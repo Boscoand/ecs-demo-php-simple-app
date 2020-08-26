@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::account_ID:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::878623218037:role/delivery-api-stack-testing-ECSCluster-TaskIamRole-5MB2NXHQC27H",
     "containerDefinitions": [
         {
             "name": "simple-app",
