@@ -1,8 +1,8 @@
 {
-    "executionRoleArn": "arn:aws:iam::878623218037:role/delivery-api-stack-testing-ECSCluster-TaskIamRole-5MB2NXHQC27H",
+    "executionRoleArn": "arn:aws:iam::878623218037:role/testing-delivery-api-TaskIamRole-1LQQ7PKQN5SY7",
     "containerDefinitions": [
         {
-            "name": "simple-app",
+            "name": "sample-website",
             "image": "<IMAGE1_NAME>",
             "essential": true,
             "portMappings": [
@@ -10,10 +10,6 @@
                     "containerPort": 80
                 }
             ],
-            "environment": {
-                "name": "Tag",
-                "value": ""
-            },
             "entryPoint": [
                 "/usr/sbin/apache2",
                 "-D",
