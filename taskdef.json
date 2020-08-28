@@ -1,5 +1,5 @@
 {
-    "executionRoleArn": "arn:aws:iam::878623218037:role/testing-delivery-api-CodePipelineServiceRole-1FFRH3K0F8414", 
+    "executionRoleArn": "arn:aws:iam::878623218037:role/testing-role-codepipeline", 
     "containerDefinitions": [
         {
             "name": "sample-website",
