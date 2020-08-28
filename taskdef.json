@@ -1,6 +1,6 @@
 {
     "executionRoleArn": "arn:aws:iam::878623218037:role/testing-role-codepipeline", 
-    "containerDefinitions": [
+    "containerDefinitions": [ 
         {
             "name": "sample-website",
             "image": "<IMAGE1_NAME>",
